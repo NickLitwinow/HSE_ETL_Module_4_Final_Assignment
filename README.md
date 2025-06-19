@@ -45,7 +45,7 @@ CREATE TABLE transactions_v2 (
 1.  **Подготовлена целевая БД**: Скриптом `task1/create_postgres_table.sql` создана таблица в PostgreSQL для хранения конечных данных.
 2.  **Создан DAG `STREAMING_JOBS`** (`task3/dags/streaming_dag.py`), который запускает продюсера и консьюмера.
 3.  **`kafka_producer.py`**: Читает очищенный Parquet-файл и в бесконечном цикле отправляет записи в топик Kafka, имитируя живой поток данных.
-4.  **`kafka_consumer_to_postgres.py`**: Читает данные из Kafka и загружает их в PostgreSQL, используя логику **UPSERT** (`INSERT ... ON CONFLICT UPDATE`). Это гарантирует отсутствие дубликатов и актуальность данных в витрине.
+4.  **`kafka_consumer_to_postgres.py`**: Читает данные из Kafka и загружает их в PostgreSQL, используя логику **UPSERT** (`INSERT ... ON CONFLICT UPDATE`).
 5. **Созданы скриншоты работы**
 
 ### Задание 4: Визуализация в DataLens
