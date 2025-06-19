@@ -50,7 +50,7 @@ CREATE TABLE transactions_v2 (
 
 ### Задание 4: Визуализация в DataLens
 
-
+<img width="1512" alt="Screenshot 2025-06-19 at 21 52 13" src="https://github.com/user-attachments/assets/a1a22b08-4449-4687-a066-3ea5d0fd67b1" />
 
 ## Заключение
 
